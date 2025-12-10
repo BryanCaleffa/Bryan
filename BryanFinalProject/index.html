@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Run</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        #board {
+            background-image: url("./img/background.jpg"); 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #000;
+        }
+
+    </style>
+    <script src="run.js" defer></script>
+</head>
+<body>
+    <h1>RUN GAME</h1>
+    <canvas id="board" width="750" height="250"></canvas>
+    <audio id="bgMusic" src="img/music.mp3" autoplay loop></audio>
+</body>
+</html>
